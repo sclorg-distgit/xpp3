@@ -6,7 +6,7 @@
 Summary:        XML Pull Parser
 Name:           %{?scl_prefix}xpp3
 Version:        1.1.4
-Release:        15.c.1%{?dist}
+Release:        15.c.2%{?dist}
 License:        ASL 1.1
 URL:            http://www.extreme.indiana.edu/xgws/xsoap/xpp/mxp1/index.html
 Source0:        http://www.extreme.indiana.edu/dist/java-repository/xpp3/distributions/xpp3-%{oversion}_src.tgz
@@ -93,6 +93,9 @@ popd
 %license LICENSE.txt
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 1.1.4-15.c.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 1.1.4-15.c.1
 - Automated package import and SCL-ization
 
